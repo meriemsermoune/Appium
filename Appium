@@ -1,0 +1,62 @@
+Appium
+open source library
+belongs to selenium family
+- we can be testing against - virtual devices & physical devices.
+
+saucelabs-- browserStack--
+
+appium architecture:
+client code 
+appium server
+device(physical/virtual)
+-----======--------======-----
+Appium locators:
+
+- xpath: absolute & relative
+* in selenium the xpath pattern is: 
+//tagName[@attributeName='attributeValue']
+
+* in Appium the xpath pattern is:
+//className[@attributeName='attributeValue']
+
+
+//android.widget.TextView[@text='Chrome']
+
+- id:
+
+-className:
+- AndroidUIAutomator (android specific)
+-AccessibilityId (mobile apps specific)
+
+===============
+Android apps have .apk
+
+Appium alternatives:
+-Xmarin
+-Espresso
+
+//android.widget.TextView[@text='App']
+
+- accessibility ID = mobile devices related locator.
+- AndroidUIAutomator==> .findElementByAndroidUIAutomator("text(/"Access'bility/")") 
+* passing string inside a string thats why we added slashes
+
+attributeName("attributeValue")
+text("Access'bility")
+
+
+==============
+toast message==> error message
+
+
+
+
+
+
+
+
+
+
+
+
+
